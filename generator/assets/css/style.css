@@ -1,0 +1,25 @@
+header {
+  margin: 0 auto;
+  width: 50%;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+main {
+  margin: 0 auto;
+  width: 50%;
+}
+main div {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+main div#submit {
+  margin-top: 2rem;
+  text-align: center;
+}
+main p {
+  margin-bottom: 0.8rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://salukimakingcode.github.io/pack/pack.css" rel="stylesheet" />
+    <script src="https://salukimakingcode.github.io/pack/pack.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a fake excuse notes generator" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8">
+    <title>Fake Excuse Notes Generator</title>
+</head>
+<body>
+<header>
+    <h1>Fake Excuse Notes Generator</h1>
+</header>
+
+<main>
+<form action="excuse.php" method="post">
+
+<div id="name">
+    <label for="name"> name of the child :
+    <input type="text" name="name" />
+    </label>
+</div>
+
+<div id="gender">
+Gender of the child :
+    <label for="gender">
+    <input type="radio" name="gender" value="girl" checked/>
+    Girl
+    </label>
+    <label for="gender">
+    <input type="radio" name="gender" value="boy"/>
+    Boy
+    </label>
+</div>
+
+<div id="teacher">
+    <label for="teacher"> name of the teacher :
+    <input type="text" name="teacher" />
+    </label>
+</div>
+
+<div id="teacher_gender">
+gender of the teacher :
+    <label for="teacher_gender">
+    <input type="radio" name="teacher_gender" value="miss" checked/>
+    Miss
+    </label>
+    <label for="teacher_gender">
+    <input type="radio" name="teacher_gender" value="mister"/>
+    Mister
+    </label>
+</div>
+
+<div id="reason">
+Reason of absence :
+    <label for="reason">
+    <input type="radio" name="reason" value="illness" checked/>
+    Illness
+    </label>
+    <label for="reason">
+    <input type="radio" name="reason" value="death"/>
+    Death of the pet
+    </label>
+    <label for="reason">
+    <input type="radio" name="reason" value="activity"/>
+    Significant extra-curricular activity
+    </label>
+    <label for="reason">
+    <input type="radio" name="reason" value="failure"/>
+    Power failure
+    </label>
+</div>
+
+<div id="submit">
+    <input type="submit" value="Make the apologies">
+</div>
+
+</form>
+
+</main>
+
+</body>
+</html>
